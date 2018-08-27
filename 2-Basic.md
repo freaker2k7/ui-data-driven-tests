@@ -1,4 +1,5 @@
-**[Source](./docs/2-Basic.html)**
+[**[Tree](https://github.com/freaker2k7/ui-data-driven-tests)**]
+
 
 # Basic Usage
 
@@ -150,3 +151,6 @@ to disable some of the alerts for the test if needed.
 - name: some-sleep-task
   sleep: 3 # This will sleep for 3 seconds. 
 ```
+
+
+[**[Source](https://github.com/freaker2k7/ui-data-driven-tests/blob/master/2-Basic.md)**]

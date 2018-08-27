@@ -1,0 +1,23 @@
+/*******************************************************
+* Copyright (C) 2018 Doorzz, Inc
+* 
+* This file is part of the UI QA DDT project.
+* 
+* UI QA DDT project can not be copied and/or distributed without the express
+* permission of Doorzz, Inc.
+*******************************************************/
+
+UI QA DDT
+=========
+
+This POC was launched on Thu Aug 15 2018 :)
+Feel free to ask for features or complain about issues.
+
+Contact Details
+---------------
+
+Email:  cto@doorzz.com
+Pthone: +972-507805838
+
+
+© 2018 All rights reserved to Doorzz, Inc.

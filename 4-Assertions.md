@@ -1,4 +1,5 @@
-**[Source](./docs/4-Assertions.html)**
+[**[Tree](https://github.com/freaker2k7/ui-data-driven-tests)**]
+
 
 # Assertion Types
 
@@ -88,3 +89,6 @@ NOTE: All the assertions with values should look like the following:
 - .at
 - .of
 - .same
+
+
+[**[Source](https://github.com/freaker2k7/ui-data-driven-tests/blob/master/4-Assertions.md)**]

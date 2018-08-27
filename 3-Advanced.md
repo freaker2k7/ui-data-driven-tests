@@ -1,4 +1,5 @@
-**[Source](./docs/3-Advanced.html)**
+[**[Tree](https://github.com/freaker2k7/ui-data-driven-tests)**]
+
 
 # Advanced Usage
 
@@ -205,7 +206,7 @@ It'll work this way - you'll simply be able to add tags to each task/step.
 
 
 
-### Example 1:
+### Example:
 
 ```yaml
 - name: some-task-87
@@ -228,3 +229,5 @@ It'll work this way - you'll simply be able to add tags to each task/step.
     - daily
 ```
 
+
+[**[Source](https://github.com/freaker2k7/ui-data-driven-tests/blob/master/3-Advanced.md)**]
