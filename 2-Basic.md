@@ -153,4 +153,27 @@ to disable some of the alerts for the test if needed.
 ```
 
 
+## "notify" - A webhook url (POST)
+
+
+### Example 1:
+
+```yaml
+- name: some-task-87
+  get: "#username"
+  expect: "text"
+  value: "John Doe"
+  notify: "http://example.com" # This will send the result status of this step
+```
+**NOTE: This notification will be send even if the previous tasks fail.**
+
+
+### Example 2:
+
+```yaml
+- name: some-notift-task
+  notify: "http://example.com" # This will send the overall status (at this point)
+```
+
+
 [**[Source](https://github.com/freaker2k7/ui-data-driven-tests/blob/master/2-Basic.md)**]

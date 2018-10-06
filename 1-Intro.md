@@ -26,6 +26,7 @@ NOTE: The names are arbitrary, but mandatory!
 - **alert**        : Accept alert
 - **frame**        : Switch to frame with given ID
 - **sleep**        : Sleep for a given number of seconds
+- **notify**       : A webhook url (POST)
 
 
 ## The complex operations are:
@@ -35,6 +36,7 @@ NOTE: The names are arbitrary, but mandatory!
 - **register**     : Register a dynamic variable from an element's value using its CSS selector
 - **if**           : Run the task under condition
 - **tags**         : A list of tags of the task
+- **format**       : The output format for the webhook [JSON / XML / Form / JUnit]
 
 ## Many Assertion types
 

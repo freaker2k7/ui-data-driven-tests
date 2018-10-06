@@ -210,23 +210,45 @@ It'll work this way - you'll simply be able to add tags to each task/step.
 
 ```yaml
 - name: some-task-87
-  .
-  .
+  ⋮
   tags:
     - nightly
 
 - name: some-task-88
-  .
-  .
+  ⋮
   tags:
     - nightly
 
 - name: some-task-89
-  .
-  .
+  ⋮
   tags:
     - nightly
     - daily
+```
+
+
+## format - The output format for the webhook [JSON / XML / Form / JUnit]
+
+
+This is a complementary option for the "notify" parameter.
+It can take one of the 4 values:
+
+- json (Default)
+- xml
+- junit
+- form
+
+**NOTE: "form" is used when the receipient can accept only application/x-www-form-urlencoded and multipart/form-data.**
+**NOTE: "format" should be used per notify, otherwise, it does nothing.**
+
+
+### Example:
+
+```yaml
+- name: some-task-87
+  ⋮
+  notify: "http://example.com"
+  format: junit # This will send http://example.com
 ```
 
 
