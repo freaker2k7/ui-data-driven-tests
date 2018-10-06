@@ -12,10 +12,10 @@ These are magic variable (that you can't override) so you can insert functional 
 
 ```yaml
 - name: some-task-${UUID} # This will generate a fresh uuid
-  ..
+  ⋮
 
 - name: some-task-${UUID} # And this one will generate a new uuid
-  ..
+  ⋮
 ```
 
 
@@ -27,10 +27,18 @@ These are magic variable (that you can't override) so you can insert functional 
     name: ${UUID} # In this case, both of the following tests will have the same name
 
 - name: some-task-${name}
-  ..
+  ⋮
 
 - name: some-task-${name}
-  ..
+  ⋮
+```
+
+
+### Example 3:
+
+```yaml
+- name: cache-buster
+  url: "http://example.com/?_=${UUID}" # This will bypass the cache by force
 ```
 
 
@@ -40,7 +48,7 @@ These are magic variable (that you can't override) so you can insert functional 
 
 ```yaml
 - name: some-task-${UUID}:${DATE} # This will generate a fresh uuid and date
-  ..
+  ⋮
 ```
 
 
