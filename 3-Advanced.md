@@ -237,18 +237,29 @@ It can take one of the 4 values:
 - xml
 - junit
 - form
+- email
 
 **NOTE: "form" is used when the receipient can accept only application/x-www-form-urlencoded and multipart/form-data.**
 **NOTE: "format" should be used per notify, otherwise, it does nothing.**
 
 
-### Example:
+### Example 1:
 
 ```yaml
 - name: some-task-87
   ⋮
   notify: "http://example.com"
   format: junit # This will send http://example.com
+```
+
+
+### Example 2:
+
+```yaml
+- name: some-task-87
+  ⋮
+  notify: "john.doe@example.com"
+  format: "email" # This will send an email with the JUnit result to john.doe@example.com
 ```
 
 
