@@ -252,4 +252,20 @@ It can take one of the 4 values:
 ```
 
 
+## xpath - A flag for using XPath instead of CSS selectors
+
+
+This is a complementary option for the "get", "set" and "click" parameters.
+It can take be true or false.
+
+
+### Example:
+
+```yaml
+- name: some-task-87
+  click: "//*[@id='btnNext']"
+  xpath: true
+```
+
+
 [**[Source](https://github.com/freaker2k7/ui-data-driven-tests/blob/master/3-Advanced.md)**]

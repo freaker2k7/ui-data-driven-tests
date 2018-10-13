@@ -37,6 +37,7 @@ NOTE: The names are arbitrary, but mandatory!
 - **if**           : Run the task under condition
 - **tags**         : A list of tags of the task
 - **format**       : The output format for the webhook [JSON / XML / Form / JUnit]
+- **xpath**        : A flag for using XPath instead of CSS selectors (default is "false")
 
 ## Many Assertion types
 
