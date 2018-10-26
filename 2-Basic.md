@@ -120,7 +120,7 @@ to disable some of the alerts for the test if needed.
 ```
 
 
-## "alert" - Accept alert
+## "alert" - Accept or cancel an alert dialog
 
 
 ### Example:
