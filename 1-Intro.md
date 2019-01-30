@@ -31,6 +31,7 @@ NOTE: The names are arbitrary, but mandatory!
 
 ## The complex operations are:
 
+- **file**         : Set a file for a file-selection input field using a CSS selector
 - **include**      : Include another script/YAML instead of this step
 - **vars**         : Set a list of named constants
 - **register**     : Register a dynamic variable from an element's value using its CSS selector

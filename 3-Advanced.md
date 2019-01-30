@@ -9,11 +9,39 @@ On top of the "Basic" operations there are some features,
 giving the test the ability to become dynamic.
 
 
+## "file" - Set a file for a file-selection input field using a CSS selector
+
+
+### Example 1:
+
+```yaml
+- name: some-task
+  file: "#uploader_1"
+  value: "https://upload.wikimedia.org/wikipedia/en/a/a9/Example.jpg"
+```
+
+### Example 2:
+
+```yaml
+- name: some-task
+  file: "#uploader_2"
+  value: "http://192.168.8.123/Example.jpg" # For On-Prem installations
+```
+
+### Example 3:
+
+```yaml
+- name: some-task
+  file: "#uploader_3"
+  value: "data:image/gif;base64,R0lGODlhAQABAIAAAAUEBAAAACwAAAAAAQABAAACAkQBADs="
+```
+
+
 ## "include" - Include another script/YAML instead of this step
 
 
-NOTE: As mentioned, "include" tasks are the only ones that don't need a name,
-because they will be overridden with the tasks of the given file.
+NOTE: As mentioned, "include(d)" tasks are the only ones that don't need a name,
+because they will be overridden with the tasks of the given file (to include).
 
 
 ### Example 1:
