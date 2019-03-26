@@ -9,6 +9,33 @@ On top of the "Basic" operations there are some features,
 giving the test the ability to become dynamic.
 
 
+## "useragent" - Set the User-Agent for the test
+
+
+This will register a variable named "USERAGENT" you can use later on if you need.
+
+NOTE: The UserAgent can be set only once (with no difference where it's located),
+more precisely, only the first one will take effect.
+
+
+### Example:
+
+```yaml
+- useragent: "Mozilla/5.0 (Macintosh; U; Intel Mac OS X 10_5_6; en-US) AppleWebKit/530.5 (KHTML, like Gecko) Chrome/ Safari/530.5"
+```
+
+
+## "resize" - Set the window's width and height
+
+
+### Example:
+
+```yaml
+- name: set-size
+  resize: 1366x768
+```
+
+
 ## "file" - Set a file for a file-selection input field using a CSS selector
 
 
@@ -138,6 +165,7 @@ It has 4 fields:
 
 For now there are the following operands (you're welcome to contact me, see test/LICENSE.md):
 
+- 'in'
 - 'lt' or '<'
 - 'gt' or '>'
 - 'lte' or '<='

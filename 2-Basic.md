@@ -8,6 +8,11 @@ You should run each operation in an individual test.
 
 You can do combinations of operations in a single task, if it makes sense for you.
 
+
+When using multiple operations in one task, they'll occure in the followinf order:
+resize --> url --> click --> script --> set --> get --> file --> alert --> frame --> sleep --> notify
+
+
 NOTE: Be careful to NOT use an operation more than once in a task!
 
 

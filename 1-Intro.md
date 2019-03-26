@@ -31,6 +31,8 @@ NOTE: The names are arbitrary, but mandatory!
 
 ## The complex operations are:
 
+- **useragent**    : Set the User-Agent for the test
+- **resize**       : Set the window's width and height
 - **file**         : Set a file for a file-selection input field using a CSS selector
 - **include**      : Include another script/YAML instead of this step
 - **vars**         : Set a list of named constants
