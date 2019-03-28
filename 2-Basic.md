@@ -10,7 +10,7 @@ You can do combinations of operations in a single task, if it makes sense for yo
 
 
 When using multiple operations in one task, they'll occure in the followinf order:
-resize --> url --> click --> script --> set --> get --> file --> alert --> frame --> sleep --> notify
+resize --> url --> click --> script --> set --> get --> drag --> file --> alert --> frame --> sleep --> notify
 
 
 NOTE: Be careful to NOT use an operation more than once in a task!
@@ -112,6 +112,27 @@ to disable some of the alerts for the test if needed.
   get: "#username"
   expect: "to.have.count" # Required !!!
   value: 1 # (optional)
+```
+
+
+## "drag" - Drag an element and Drop it on the given (selector or coordinate) value using (only) CSS selectors
+
+
+### Example 1:
+
+```yaml
+- name: some-get-task
+  drag: ".myImage"
+  value: "#drop-area"
+```
+
+
+### Example 2:
+
+```yaml
+- name: some-other-get-task
+  drag: ".myImage"
+  value: 420x240
 ```
 
 

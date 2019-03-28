@@ -23,6 +23,7 @@ NOTE: The names are arbitrary, but mandatory!
 - **script**       : Run custom script
 - **set**          : Set an element's value using a CSS selector
 - **get**          : Get an element's value using a CSS selector
+- **drag**         : Drag an element and Drop it on the given (selector or coordinate) value
 - **alert**        : Accept alert
 - **frame**        : Switch to frame with given ID
 - **sleep**        : Sleep for a given number of seconds
