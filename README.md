@@ -1,4 +1,4 @@
-# User-Interface Quality-Analysis Data-Driven-Tests
+# User-Interface Quality-Assurance Data-Driven-Tests
 
 This is the (official) documentation for https://qa.doorzz.com
 
