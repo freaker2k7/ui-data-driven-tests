@@ -1,6 +1,6 @@
 # User-Interface Quality-Assurance Data-Driven-Tests
 
-This is the (official) documentation for https://qa.doorzz.com
+This is the (official) documentation for https://uiqa.io
 
 ## Table of contents:
 
