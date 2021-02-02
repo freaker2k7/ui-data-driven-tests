@@ -1,10 +1,10 @@
 /*******************************************************
-* Copyright (C) 2018 Doorzz, Inc
+* Copyright (C) 2021 uiqa.io
 * 
 * This file is part of the UI QA DDT project.
 * 
 * UI QA DDT project can not be copied and/or distributed without the express
-* permission of Doorzz, Inc.
+* permission of uiqa.io
 *******************************************************/
 
 UI QA DDT
@@ -16,8 +16,8 @@ Feel free to ask for features or complain about issues.
 Contact Details
 ---------------
 
-Email:  cto@doorzz.com
+Email:  cto@uiqa.io
 Pthone: +972-507805838
 
 
-© 2018 All rights reserved to Doorzz, Inc.
+© 2021 All rights reserved to uiqa.io
