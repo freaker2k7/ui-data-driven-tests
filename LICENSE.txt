@@ -10,7 +10,7 @@
 UI QA DDT
 =========
 
-This POC was launched on Thu Aug 15 2018 :)
+This POC was launched on Mon Feb 1 2021 :)
 Feel free to ask for features or complain about issues.
 
 Contact Details
